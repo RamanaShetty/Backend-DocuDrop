@@ -1,6 +1,6 @@
 const { Router } = require("express");
 
-const userServices = require("../services/user");
+const userServices = require("../services/userService");
 
 const router = Router({ strict: true });
 

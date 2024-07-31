@@ -1,7 +1,7 @@
 const { hash, compare } = require("bcryptjs");
 const { sign } = require("jsonwebtoken");
 
-const User = require("../models/Users");
+const User = require("../models/usersModel");
 
 exports.register = async (req, res, next) => {
   const { rollnumber, email, password } = req.body;
