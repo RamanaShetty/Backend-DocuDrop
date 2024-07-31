@@ -10,4 +10,5 @@ db(app);
 
 app.use(express.json());
 
-app.use("/api/v1/user", require("./controller/user"));
+app.use("/api/v1/user", require("./controller/userController"));
+app.use("/api/v1/client", require("./controller/clientController"));
